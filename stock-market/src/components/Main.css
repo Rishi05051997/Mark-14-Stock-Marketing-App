@@ -1,0 +1,119 @@
+.main-content {
+    margin: 0 16rem;
+    position: relative;
+    top: 111px;
+
+    width: 1000px;
+    background-image: url("./../images/main.jpg");
+    padding: 3rem;
+    height: 684px;;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+    background-size:cover;   
+    background-repeat:   no-repeat;
+    background-position: center center;    
+}
+
+.main-content .header {
+    margin: 0 0 5rem 0;
+}
+.main-content .header .header-list {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.main-content .header .header-list li {
+    list-style: none;
+}
+.main-content .header .header-list .header-list-item  {
+    margin: 0 120px;
+    text-decoration: none;
+    border: 1px solid #00dcff;
+    padding: 14px;
+    border-radius: 23px;
+    color: #00dcff;
+    
+}
+
+.main-content .header .header-list .header-list-item:hover{
+    color: #fff;
+    border: 3px solid white;
+}
+
+.main-content .header h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.main-content .content {
+    margin: 2rem;
+}
+.main-content .content h2 {
+    color: white;   
+}
+
+.main-content .content .input-field  {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-content .content .input-field label {
+    color: white;
+    margin: 0 0 10px 0;
+}
+
+.main-content .content .input-field input {
+    margin: 0;
+    padding: 12px;
+    width: 270px;
+    border-radius: 10px;
+    border: 2px solid magenta;
+}
+
+.main-content .content .input-field input:focus {
+    background-color:rgb(160, 161, 233);
+}
+
+.main-content .content .btn-field button {
+    margin: 0;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+}
+
+
+/* .main-content .content .btn-field button:hover {
+    background-color:transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+} */
+
+.main-content .content .error {
+    background-color: chocolate;
+    padding: 4px;
+    max-width: 608px;
+    margin: 4px;
+}
+.main-content .content .displayNone {
+    display: none;
+}
+
+.main-content .content .error p{
+    color: #ffff;
+    font-size: 1.5rem;
+    margin-block-start: 0.7em;
+    margin-block-end: 0;
+    
+}
+
+.main-content .Image {
+    position: relative;
+    left: 505px;
+    bottom: 312px;
+}
+
+
