@@ -51,6 +51,8 @@ export default function Main() {
             setNonZeroValue(true);
             setLossDisplay(false);
             setProfitDisplay(false);
+            setLossImage(false);
+            setProfitImage(false);
 
         }
         if (CostPrice > 0 && SellingPrice > 0 && Quantity > 0) {
