@@ -58,7 +58,7 @@ export default function Main() {
             if (CostPrice > SellingPrice) {
                 /// calculating loss amount
                 let LossAmount;
-                debugger;
+                // debugger;
                 LossAmount = ((CostPrice - SellingPrice) * Quantity).toFixed(2);
                 if(Number(lossAmount) <= 0){
                     setNonZeroValue(true);
@@ -84,7 +84,7 @@ export default function Main() {
                 // const profit = ((SP-CP)*Qty).toFixed(2)
                 // const profitPer=(((SP-CP)*100)/CP).toFixed(2) 
                 /// calculating Profit amount
-                debugger
+                // debugger
                 let ProfitAmount;
                 ProfitAmount = ((SellingPrice - CostPrice) * Quantity).toFixed(2);
                 if(Number(profitAmount) <= 0){

@@ -3,3 +3,12 @@
   height: 1000px;
   
 }
+
+
+@media (max-Width:768px) {
+  .container {
+    width: 85rem;
+    height: 1700px;
+  }
+  
+}

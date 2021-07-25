@@ -117,3 +117,47 @@
 }
 
 
+@media (max-Width:768px) {
+    .main-content {
+        margin: 0 20rem;
+        width: 580px;
+        height: 1300px;
+    }
+    .main-content .header .header-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-content .header {
+        margin: 0rem 0 2rem 0;
+    }
+    .main-content .header .header-list li{
+        list-style: none;
+        margin: 1rem;
+    }
+    .main-content .header .header-list .header-list-item  {
+        margin: 0;
+    }
+    .main-content .content h2 {
+        text-align: center;
+        font-size: 3rem;
+    }
+   
+    .main-content .content .input-field {
+        align-items: center;
+        margin: 3rem 0;
+    }
+    .main-content .content .input-field label{
+        font-size: 2rem;
+    }
+    .main-content .content .btn-field button {
+        margin: 0 12rem;
+    }
+
+    .main-content .Image {
+        position: relative;
+        top: 1rem;
+        left: 6.25rem;
+    }
+}
+
+
